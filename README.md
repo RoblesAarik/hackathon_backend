@@ -53,3 +53,8 @@ Post a screenshot or code snippet of the entire error into the Slack or Discord 
 
 ## Looking for the Frontend?
 [Go here lol.](https://github.com/RoblesAarik/hackathon_frontend/)
+
+## TODO:
+- Create CRUD functionality
+- Connect to frontend (look up axios for React)
+- Create test users via frontend
