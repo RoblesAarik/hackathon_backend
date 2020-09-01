@@ -56,5 +56,6 @@ Post a screenshot or code snippet of the entire error into the Slack or Discord 
 
 ## TODO:
 - Create CRUD functionality
+- Connect to AWS Lambda
 - Connect to frontend (look up axios for React)
 - Create test users via frontend
