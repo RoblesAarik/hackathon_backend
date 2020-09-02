@@ -12,8 +12,8 @@ from .models import User, Business
 
 # Home route
 def index(request):
-    if request.method == "GET":
-        return HttpResponseRedirect(reverse('index'))
+    # if request.method == "GET":
+    return render(request, "mysite/index.html")
 
 # Register
 
