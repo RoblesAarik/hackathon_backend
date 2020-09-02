@@ -1,0 +1,40 @@
+{
+  "name": "hackathon_backend",
+  "version": "1.0.0",
+  "description": "To check, use ```python3 -v``` If installed, proceed to step 2. If not, look up [the docs](https://www.python.org/). lol.",
+  "main": "index.js",
+  "dependencies": {
+    "-": "^0.0.1",
+    "babel-register": "^6.26.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "save-dev": "^0.0.1-security",
+    "serverless-python-requirements": "^5.1.0",
+    "serverless-wsgi": "^1.7.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.44.1",
+    "webpack-bundle-tracker": "^1.0.0-alpha.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js --progress --colors --mode development",
+    "watch": "webpack --config webpack.config.js --watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoblesAarik/hackathon_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoblesAarik/hackathon_backend/issues"
+  },
+  "homepage": "https://github.com/RoblesAarik/hackathon_backend#readme"
+}

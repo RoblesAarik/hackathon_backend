@@ -43,8 +43,16 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'django.contrib.sites',
-    'mysite'
+    'mysite',
+    'webpack_loader',
 ]
+
+WEBPACK_LOADER = {
+    'DEFAULT': {
+        'BUNDLE_DIR_NAME': 'bundles/',
+        'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats.json'),
+    }
+}
 
 SITE_ID = 1
 
